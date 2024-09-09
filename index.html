@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Mobile-First</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <button class="menu-toggle">☰</button>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="content-section">
+            <h1>Site</h1>
+            <p>Conteúdo principal</p>
+        </section>
+        <section id="servicos" class="content-section">
+            <div class="column column-left">
+                <h2>Links Adicionais</h2>
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                </ul>
+            </div>
+            <div class="column column-center">
+                <h2>Conteúdo Principal</h2>
+                <p>Conteúdo Principal</p>
+            </div>
+            <div class="column column-right">
+                <h2>Informações Secundárias</h2>
+                <p>Widgets ou informações adicionais.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Footer</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
